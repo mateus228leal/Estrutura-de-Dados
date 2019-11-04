@@ -37,7 +37,7 @@ export class Linked{
         } else { return 'Lista vazia'; }
     }
     
-    public areEqual(list1: Linked, list2: Linked){
+    public areEqual(list1: Linked, list2: Linked): boolean{
         let list1Begin: No = list1.head;
         let list2Begin: No = list2.head;
         let trip: boolean = true;
